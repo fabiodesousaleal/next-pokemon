@@ -6,9 +6,24 @@
     npx prisma init
     npx prisma generate
     npx prisma migrate dev --name init
+
+### lib para criptografia do passwords (verificar uma lib mais forte)
     npm install bcrypt
 
-    npm install react-hot-toast
+## toast 
+npm install sonner
+
+## documentação codeblock
+npm install prismjs
+
+# Autenticação - session - token
+## Passo a Passo
+    1 - Criar arquivo route.ts "/apps/api/auth/[...nextauth]/route.ts"
+    npm install next-auth
+    ## Criar .env
+    ## adicionar variaveis: NEXTAUTH_URL e NEXTAUTH_SECRET
+
+    openssl rand -base64 32
 
 
 ## GIT INSTRUCTIONS 
